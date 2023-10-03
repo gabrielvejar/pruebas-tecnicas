@@ -8,14 +8,14 @@ function Book(props) {
                 image={props.cover}
                 title={props.title}
             />
-            <CardContent>
+            {/* <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                     {props.title}
-                </Typography>
+                </Typography> */}
                 {/* <Typography variant="body2" color="text.secondary">
           {props.synopsis}
         </Typography> */}
-            </CardContent>
+            {/* </CardContent> */}
             <CardActions>
                 <Button size="small" onClick={props.handleClickActionButton}>{props.available ? "Añadir a " : "Quitar de "}lista de lectura</Button>
             </CardActions>
